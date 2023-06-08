@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blyss">
+    <title>Blyss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" integrity="sha512-ARJR74swou2y0Q2V9k0GbzQ/5vJ2RBSoCWokg4zkfM29Fb3vZEQyv0iWBMW/yvKgyHSR/7D64pFMmU8nYmbRkg==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="mobile-flex">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- <img src="assets/images/logo.png" alt="Blyss"> -->
+                        <img srcset="assets/images/logo.png 520w,
+                        assets/images/logo-2x.png 992w" sizes="(max-width: 520px) 270px,
+                                                                      992px" src="assets/images/logo-2x.png" alt="Blyss">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" itemprop="name">The Blyss Difference</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#" itemprop="name">The Blyss Difference</a>
+                                <a class="dropdown-item" href="#" itemprop="name">About</a>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">How We Care</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Services and Pricing</a>
+                        </div>
+                        <div class="d-flex flex-lg-row flex-column align-items-lg-center">
+                            <a href="#" class="main-btn">Book an Appointment</a>
+                            <div class="d-flex flex-lg-column align-items-center align-items-lg-start">
+                                <span class="text">Questions? Call Us:</span>
+                                <a href="tel:858-799-057" class="bold-link">858-799-057</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="first-screen">
+            <div class="container h-100">
+                <div class="text">
+                    <p class="primary-title">Finally, the smile you've always wanted. And an experience we created just for you.</p>
+                    <h1 class="main-h1">Welcome to Blyss Dental. </h1>
+                    <div class="small-text">
+                        <p>We don't just make great smiles. </p>
+                        <p>We remove the barriers to a great dental experience.</p>
+                    </div>
+                    <div class="bottom-buttons">
+                        <button class="primary-btn" type="button" data-toggle="modal" data-target="#modalBookAnAppointment">Book an Appointment </button>
+                        <span>or</span>
+                        <button class="underline-btn">Get a Virtual Estimate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-back"></div>
+        </div>
+        <div class="container">
+            <div class="list-items">
+                <div class="item">
+                    <div class="item-icon">
+                        <img src="assets/images/icons/icon-pricing.png" alt="Pricing">
+                    </div>
+                    <div class="item-text">
+                        <h3>Radically Transparent Pricing</h3>
+                        <p>Here’s a radical idea you rarely see in health care: we post our pricing online. We also simplify and bundle related services and give you the benefit of package pricing. </p>
+                    </div>
+                </div>
+                <div class="item item-title">
+                    <h2> <span>The 5 Benefits</span> of Blyss Patient Care</h2>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <img src="assets/images/icons/icon-materials.png" alt="Materials">
+                    </div>
+                    <div class="item-text">
+                        <h3>Only the Best Materials</h3>
+                        <p>You deserve top-of-the-line work. That’s why Blyss uses only the highest quality materials, choosing the right one for each patient’s aesthetic goals and oral health. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <img src="assets/images/icons/icon-clock.png" alt="Time">
+                    </div>
+                    <div class="item-text">
+                        <h3>15-Minutes or $15</h3>
+                        <p>At Blyss, we schedule appointments with room to breathe. If your wait goes longer than 15 minutes, you’ll get a $15 gift card. With our sincere apologies.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <img src="assets/images/icons/icon-guarantee.png" alt="Guarantee">
+                    </div>
+                    <div class="item-text">
+                        <h3>5-Year Guarantee</h3>
+                        <p>We stand behind our work with a 5-year Peace of Mind Guarantee. Enjoy your smile, knowing we’ve got you covered.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <img src="assets/images/icons/icon-stars.png" alt="Safety">
+                    </div>
+                    <div class="item-text">
+                        <h3>5 Star Safety</h3>
+                        <p>We’re nice people. But we have zero tolerance for cross-contamination. Staff who break safety protocols can (and will) be replaced. Your health cannot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-text">
+            <div class="text">
+                <p>We created Blyss Dental to take away the negatives and deliver the two things that matter most:</p>
+                <p class="big-p">your <span class="secondary-color">smile</span> and your <span class="third-color">comfort.</span></p>
+                <button class="primary-btn" type="button" data-toggle="modal" data-target="#modalBookAnAppointment">Book an Appointment </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="images">
+                <div class="img-with-text">
+                    <img src="assets/images/photo2.jpg" alt="photo">
+                    <div class="name">
+                        <span>Featured Dentist</span>
+                        <p>Georgina Carrasco, DMD</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Our Patient Care Philosophy: </h2>
+                    <!-- <img src="assets/images/diagram.png" alt="diagram"> -->
+                    <img srcset="assets/images/diagram.png 520w,
+                        assets/images/diagram-2x.jpg 992w" sizes="(max-width: 520px) 270px,
+                                                                      992px" src="assets/images/diagram-2x.jpg" alt="Blyss">
+                    <p>At Blyss, we schedule appointments with room to breathe. If your wait goes longer than 15 minutes, you’ll get a $15 gift card. With our sincere apologies.</p>
+                </div>
+            </div>
+            <div class="list-values">
+                <div class="item">
+                    <h3 class="fourth-color">Gentle touch care</h3>
+                    <p>Our doctors and staff are patient and kind, providing a light, gentle touch throughout your procedure. </p>
+                </div>
+                <div class="item">
+                    <h3 class="fifth-color">Empathetic</h3>
+                    <p>Our doctors and staff are patient and kind, providing a light, gentle touch throughout your procedure. </p>
+                </div>
+                <div class="item">
+                    <h3 class="third-color">Non-rushed appointments</h3>
+                    <p>Show our respect for you and our commitment to getting the work done perfectly. </p>
+                </div>
+                <div class="item">
+                    <h3 class="secondary-color">Ethical treatment plans</h3>
+                    <p>Mean we focus on what’s right for you. Period. We’re under no pressure to sell you services that benefit anyone else.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-services">
+            <div class="container">
+                <div class="services">
+                    <div class="list-items">
+                        <div class="item">
+                            <div class="item-text">
+                                <h3>All-on-4 Implants</h3>
+                                <p>Replace single or multiple teeth to restore function and harmony to your smile.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-text">
+                                <h3>Ceramic Crowns</h3>
+                                <p>Restore teeth to their original function and appearance with modern ceramic solutions.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-text">
+                                <h3>Dental Implants</h3>
+                                <p>Replace single or multiple teeth to restore function and harmony to your smile.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-text">
+                                <h3>Porcelain Veneers</h3>
+                                <p>Make dramatic changes to the shape, color, and symmetry of your smile! </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Discover how a dental office should be...</h2>
+                        <p class="sub-title">You deserve Royal treatment.</p>
+                        <p>We go out of our way to bring your anxiety level down, respect your time, make you comfortable, and give you peace of mind, along with a gorgeous smile.</p>
+                        <p>We care about the small details that make your experience extraordinary. </p>
+                        <a href="#" class="primary-btn">All services and prices</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="table-values">
+                <h2>Blyss Dental goes above and beyond typical dental practices</h2>
+                <div class="table-properties">
+                    <div class="item item-title">
+                        <div></div>
+                        <div>
+                            <h4>Typical Dental Practice</h4>
+                        </div>
+                        <div>
+                            <h4>Blyss Dental</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Transparent prices posted online</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p class="ico ico-no">
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Simplified package pricing</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p class="ico ico-no">
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>5-year guarantee</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p class="ico ico-no">
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>On-time appointments <span>(with compensation for extra wait)</span> </p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>unlikely</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Non-rushed appointments</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>sometimes</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Zero tolerance for infection control infractions</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>enforcement varies</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Gentle-touch procedures</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>sometimes</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Use only top materials</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>sometimes</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Ethical treatment plans <span>(no upselling)</span> </p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>varies</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Online consultation</p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p>sometimes</p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <p>Virtual estimates </p>
+                        </div>
+                        <div class="values">
+                            <div class="first-column">
+                                <p class="ico ico-no">
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="second-column">
+                                <p class="ico ico-yes">
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carousel-block">
+                <h2>Why people love Blyss Dental</h2>
+                <div class="owl-carousel list-items">
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo1.png" alt="Melissa A.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Melissa A.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo2.png" alt="Amanda F.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Amanda F.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo3.png" alt="Maryana S.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Maryana S.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo1.png" alt="Melissa A.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Melissa A.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo2.png" alt="Amanda F.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Amanda F.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo3.png" alt="Maryana S.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Maryana S.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo1.png" alt="Melissa A.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Melissa A.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo2.png" alt="Amanda F.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Amanda F.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/carousel-photo3.png" alt="Maryana S.">
+                        </div>
+                        <div class="item-text">
+                            <h3>Maryana S.</h3>
+                            <p>My hygienist...was sooooo awesome and sweet! Loved the attention and care that went into this visit. She was very attentive to my concerns and eased any anxiety I had!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="information-block">
+                <h2>Ready to schedule your appointment?</h2>
+                <div class="bottom-buttons">
+                    <button class="primary-btn" type="button" data-toggle="modal" data-target="#modalBookAnAppointment">Book an Appointment </button>
+                    <span>or</span>
+                    <button class="underline-btn">Get a Virtual Estimate</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-items" itemscope itemtype="http://schema.org/WPFooter">
+                    <div class="nav-address" itemscope itemtype="http://schema.org/Organization">
+                        <img src="assets/images/logo-white.png" itemprop="name" alt="Blyss">
+                        <div>
+                            <p itemprop="address">807 Camino Del Mar</p>
+                            <p>Del Mar, CA 92104 • 858-799-0570</p>
+                        </div>
+                    </div>
+                    <div class="nav-list">
+                        <a href="#">Home</a>
+                        <a href="#">The Blyss Difference</a>
+                        <a href="#">About</a>
+                    </div>
+                    <div class="nav-list">
+                        <a href="#">How we care</a>
+                        <a href="#">Services and pricing</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="nav-contacts">
+                        <p>Call us today: </p>
+                        <a href="tel:858-799-057" class="bold-link" itemprop="telephone">858-799-057</a>
+                        <a href="#" class="main-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="footer-bottom-text">
+                    <p>© 2021 Blyss. Cosmetic & Restorative Dentistry</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="modalBookAnAppointment" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content modal-form-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book an Appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="form-group required-field col-12">
+                                <label>What type of appointment would you like to schedule? <span>*</span></label>
+                                <select class="selectpicker form-control" data-size="4">
+                                    <option>New Patient - First Consultation</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="form-group required-field col-md-6 col-12">
+                                <label>First Name <span>*</span></label>
+                                <input type="text" class="form-control" name="name" value="Olha |">
+                            </div>
+                            <div class="form-group col-md-6 col-12">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" name="name" placeholder="Last Name" value="">
+                            </div>
+                            <div class="form-group col-md-6 col-12">
+                                <label>Email </label>
+                                <input type="email" class="form-control" name="email" placeholder="Email" value="">
+                            </div>
+                            <div class="form-group required-field error-field col-md-6 col-12">
+                                <label>Phone Number <span>*</span></label>
+                                <input type="text" class="form-control" name="phone" placeholder="Phone Number" value="">
+                            </div>
+                            <div class="form-group col-12">
+                                <label>Comment</label>
+                                <textarea rows="3" class="form-control" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="main-btn" id="send-btn">Book an Appointment </button>
+                </div>
+            </div>
+            <div class="modal-content modal-success-content d-none">
+                <div class="success-block">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" preserveAspectRatio="xMidYMid meet"><g><circle class="wi-circle" cx="50" cy="49.9999657" r="47.5"></circle><circle class="wi-circle-dash" cx="50" cy="49.9999657" r="47.5"></circle>
+                    <polyline class="wi-check" points="28.6469955,52.0561066 42.2152748,65.6243896 71.3530045,36.4866562"></polyline>
+                    <polyline class="wi-check-dash" points="28.6469955,52.0561066 42.2152748,65.6243896 71.3530045,36.4866562"></polyline></g></svg>
+                    <h3>Thank You!</h3>
+                    <p>We'll contact with you ASAP. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js" integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //js for carousel
+        $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+            //js for show success block
+        $(function() {
+            var $button = $('#send-btn'),
+                $containerForm = $('.modal-form-content'),
+                $containerSuccess = $('.modal-success-content');
+            $button.click('on', function() {
+                $containerForm.addClass('d-none');
+                $containerSuccess.removeClass('d-none');
+            })
+
+        });
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "http://blyss.webim.pro/html/",
+            "logo": "http://blyss.webim.pro/html/assets/images/logo.png"
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/pixlayout@0.9.8/jquery.pixlayout.min.js"></script>
+    <!--<script>
+        $.pixlayout({
+            src: "/assets/images/2.png",
+            opacity: 0.8,
+            top: 0,
+            center: true,
+            clip: true,
+            show: true
+        }, "body");
+    </script>-->
+</body>
+
+</html>
